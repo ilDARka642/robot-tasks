@@ -5,6 +5,8 @@ from pyrob.api import *
 
 @task
 def task_1_1():
+    move_right(n=2)
+    move_down(n=1)
     pass
 
 
